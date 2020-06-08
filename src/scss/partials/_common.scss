@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $font_family;
+}
+.container {
+    width: $width_container;
+    margin: auto;
+}
+a {
+    color: $colore_principale_testo;
+    text-decoration: none;
+    padding: $padding_link;
+}
+li {
+    list-style-type: none;
+}
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}

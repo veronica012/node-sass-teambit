@@ -1,0 +1,31 @@
+.header-wrapper {
+    height: $height_header;
+}
+.container {
+    @include my-flex(space-between, center);
+    border-bottom: 1px solid $colore_principale_testo;
+}
+.header-left {
+    height: $height_header;
+    @include my-flex(space-between, center);
+}
+.header-right {
+    height:$height_header;
+    @include my-flex(space-between, center);
+}
+.header-right li {
+    display: inline-block;
+}
+a {
+    font-size: $header_link_size;
+    font-weight: $font_weight;
+}
+.button {
+    background-color: white;
+    border: 1px solid $colore_principale_button;
+    color:$colore_principale_button;
+    font-weight: bold;
+}
+.button img {
+    width: 14px;
+}
