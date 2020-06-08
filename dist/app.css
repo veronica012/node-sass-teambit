@@ -33,11 +33,14 @@ li {
   height: 80px;
 }
 
+.header-wrapper .container {
+  border-bottom: 1px solid #58402c;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #58402c;
 }
 
 .header-left {
@@ -45,6 +48,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-left .logo a {
+  font-size: 25px;
 }
 
 .header-right {
@@ -72,5 +79,97 @@ a {
 
 .button img {
   width: 14px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+section {
+  color: #58402c;
+}
+
+section .titolo {
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.jumbotron .content {
+  float: left;
+  width: 50%;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron p {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .immagine {
+  float: left;
+  width: 50%;
+}
+
+.jumbotron button {
+  background-color: #30488F;
+  color: white;
+}
+
+.immagine img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content a {
+  padding-left: 0;
+}
+
+section.pink {
+  background-color: #ffe7d2;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+section.pink .container {
+  border-bottom: 1px solid #58402c;
+}
+
+.figure {
+  height: 200px;
+  width: 320px;
+  background-color: #30488F;
+  display: inline-block;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+small {
+  color: #bdb5af;
+}
+
+.container-left {
+  margin-top: 100px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+.container-left .immagine {
+  width: 50%;
+}
+
+.container-left .content {
+  display: inline-block;
+  width: 50%;
 }
 

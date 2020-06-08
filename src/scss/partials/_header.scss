@@ -1,13 +1,18 @@
 .header-wrapper {
     height: $height_header;
 }
+.header-wrapper .container {
+    border-bottom: 1px solid $colore_principale_testo;
+}
 .container {
     @include my-flex(space-between, center);
-    border-bottom: 1px solid $colore_principale_testo;
 }
 .header-left {
     height: $height_header;
     @include my-flex(space-between, center);
+}
+.header-left .logo a {
+    font-size: 25px;
 }
 .header-right {
     height:$height_header;
@@ -28,4 +33,7 @@ a {
 }
 .button img {
     width: 14px;
+}
+.logo img {
+    margin-right: 10px;
 }
