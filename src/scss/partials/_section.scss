@@ -10,10 +10,6 @@ section .container {
 section .titolo {
     text-align: center;
 }
-// .jumbotron .content {
-//     float: left;
-//     width: 50%;
-// }
 .jumbotron h1 {
     font-size: 50px;
 }
@@ -22,16 +18,13 @@ section .titolo {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-// .jumbotron .immagine {
-//     float: left;
-//     width: 50%;
-// }
+
 .jumbotron button {
     background-color: $colore_principale_button;
     color: white;
 }
 .jumbotron button:hover {
-    background-color: #233569;
+    background-color: $blue_on_hover;
 }
 .img-jumbo img {
     max-width: 100%;

@@ -5,7 +5,7 @@ h2 {
     text-align: center;
 }
 .pink {
-    background: #ffe7d2;
+    background: $background_pink;
 }
 section {
     color: $colore_principale_testo;
@@ -24,8 +24,8 @@ section {
     margin-bottom: 50px;
     line-height: 1.5;
     padding: 20px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
+    border-radius: $border_radius;
+    border: 1px solid $border-color-bq;
     position: relative;
 }
 .container-quote i {
@@ -41,7 +41,7 @@ section {
     color: white;
 }
 .pink button:hover {
-    background-color: #233569;
+    background-color: $blue_on_hover;
 }
 .pink .buttons {
     text-align: center;
