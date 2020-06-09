@@ -3,10 +3,11 @@
 }
 .header-wrapper .container {
     border-bottom: 1px solid $colore_principale_testo;
-}
-.container {
     @include my-flex(space-between, center);
 }
+// .container {
+//     @include my-flex(space-between, center);
+// }
 .header-left {
     height: $height_header;
     @include my-flex(space-between, center);
@@ -16,14 +17,10 @@
 }
 .header-right {
     height:$height_header;
-    @include my-flex(space-between, center);
-}
-.header-right li {
-    display: inline-block;
+    @include my-flex(space-around, center);
 }
 a {
     font-size: $header_link_size;
-    font-weight: $font_weight;
 }
 .button {
     background-color: white;

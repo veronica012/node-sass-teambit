@@ -1,17 +1,18 @@
 section {
     color: $colore_principale_testo;
+    padding:$padding_section;
+
+}
+section .container {
+    @include my-flex(center, center);
 }
 section .titolo {
     text-align: center;
 }
-.jumbotron {
-    padding-top: $margin_section;
-    padding-bottom: $margin_section;
-}
-.jumbotron .content {
-    float: left;
-    width: 50%;
-}
+// .jumbotron .content {
+//     float: left;
+//     width: 50%;
+// }
 .jumbotron h1 {
     font-size: 50px;
 }
@@ -20,10 +21,10 @@ section .titolo {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.jumbotron .immagine {
-    float: left;
-    width: 50%;
-}
+// .jumbotron .immagine {
+//     float: left;
+//     width: 50%;
+// }
 .jumbotron button {
     background-color: $colore_principale_button;
     color: white;
@@ -34,42 +35,4 @@ section .titolo {
 }
 .content a {
     padding-left: 0;
-}
-section.pink {
-    background-color: $background_pink;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-section.pink .container {
-    border-bottom: 1px solid $colore_principale_testo;
-}
-
-.figure {
-    height:$height_figure;
-    width: $width_figure;
-    background-color: $colore_principale_button;
-    display: inline-block;
-}
-.figure img {
-    max-width: 100%;
-    height: auto;
-}
-small {
-    color: #bdb5af;
-}
-.container-left {
-    margin-top: $margin_section;
-    margin-right: $margin_section;
-    display: inline-block;
-}
-.container-left .immagine {
-    width: 50%;
-
-
-}
-.container-left .content {
-    display: inline-block;
-    width: 50%;
-
-
 }
