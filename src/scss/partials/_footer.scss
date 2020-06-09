@@ -8,11 +8,34 @@ footer {
 .descrizione {
     width: 30%;
 }
-
+.descrizione a {
+    color: $colore_principale_button;
+    font-size: 20px;
+}
+.descrizione a:hover {
+    text-decoration: underline;
+}
+.descrizione {
+    color: $colore_principale_testo;
+    font-size: 20px;
+}
+.logo-small {
+    width: 40px;
+}
 .footer-link {
     width: calc(70% / 5);
+}
+.footer-link li:first-child {
+    font-size: 20px;
+    color: $colore_principale_testo;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .footer-link li a {
     margin-top: 10px;
     padding: 0;
+    line-height: 2.4;
+}
+.footer-link li a:hover {
+    color: $colore_principale_button;
 }

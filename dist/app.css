@@ -78,7 +78,7 @@ a {
 
 section {
   color: #58402c;
-  padding: 100px;
+  padding-top: 100px;
 }
 
 section .container {
@@ -130,12 +130,42 @@ footer {
   width: 30%;
 }
 
+.descrizione a {
+  color: #30488F;
+  font-size: 20px;
+}
+
+.descrizione a:hover {
+  text-decoration: underline;
+}
+
+.descrizione {
+  color: #58402c;
+  font-size: 20px;
+}
+
+.logo-small {
+  width: 40px;
+}
+
 .footer-link {
   width: calc(70% / 5);
+}
+
+.footer-link li:first-child {
+  font-size: 20px;
+  color: #58402c;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .footer-link li a {
   margin-top: 10px;
   padding: 0;
+  line-height: 2.4;
+}
+
+.footer-link li a:hover {
+  color: #30488F;
 }
 
