@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -111,7 +111,7 @@ section .titolo {
   background-color: #233569;
 }
 
-.immagine img {
+.img-jumbo img {
   max-width: 100%;
   height: auto;
 }
@@ -208,7 +208,16 @@ h3 {
   margin-left: 0;
 }
 
-.container-left p {
+.container-right .container {
+  margin-right: 0;
+}
+
+.container-right {
+  padding-top: 0;
+}
+
+.container-left p,
+.container-right p {
   font-size: 25px;
   line-height: 1.5;
   margin-bottom: 30px;
