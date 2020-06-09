@@ -1,6 +1,7 @@
 section {
     color: $colore_principale_testo;
     padding-top:$padding_section;
+    padding-bottom:$padding_section;
 
 }
 section .container {
@@ -28,6 +29,9 @@ section .titolo {
 .jumbotron button {
     background-color: $colore_principale_button;
     color: white;
+}
+.jumbotron button:hover {
+    background-color: #233569;
 }
 .immagine img {
     max-width: 100%;
